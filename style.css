@@ -15,6 +15,9 @@ body {
   height: 100%;
   align-items: center;
   justify-content: center;
+  background: radial-gradient(#BDDAEE 10%,#185D8B 80%);
+  background-position: center center;
+  animation: 4s ease-in-out 0s infinite alternate breathe;
 }
 
 h1 {
@@ -23,4 +26,13 @@ h1 {
 
 h2 {
   font-size: 3rem;
+}
+
+@keyframes breathe {
+  from {
+    background-size: 100% 100%;
+  }
+  to {
+    background-size: 170% 170%;
+  }
 }
