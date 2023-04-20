@@ -15,9 +15,9 @@ body {
   height: 100%;
   align-items: center;
   justify-content: center;
-  background: radial-gradient(#BDDAEE 10%,#185D8B 80%);
+  background: radial-gradient(#BDDAEE 0%,#749DB9 15%,#185D8B 70%, #134A6F 100%);
   background-position: center center;
-  animation: 4s ease-in-out 0s infinite alternate breathe;
+  animation: 5s ease-in-out 0s infinite alternate breathe;
 }
 
 h1 {
